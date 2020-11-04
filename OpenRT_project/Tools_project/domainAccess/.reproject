@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+<BaseSetting Profile="standard" ProjectType="SylixOSKoProject" RealEvoVer="3.9.6 Ultimate"/>
+<OutputSetting>
+<OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+<OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+<OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+</OutputSetting>
+<BuildSetting CoustomCfgMakefile="false" NeedReBuild="false" NotScanSourceFile="false"/>
+<DeviceSetting DevName="" WorkDir="/lib/modules/domainAccess"/>
+<UploadPath>
+<PairItem key="$(WORKSPACE_domainAccess)/$(Output)/strip/domainAccess.ko" value="/lib/modules/domainAccess.ko"/>
+</UploadPath>
+</SylixOSSetting>

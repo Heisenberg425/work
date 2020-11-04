@@ -1,0 +1,78 @@
+[Dialer Defaults]
+Modem = /dev/ttyUSB0
+Baud = 460800
+Init1 = ATZ
+Init2 = ATQ0 V1 E1 S0=0 &C1 &D2 +FCLASS=0
+Init3 = 
+Phone = ATDT#777
+Username = CARD
+Password = CARD
+Dial Command = 
+Resp Wait = 10000
+
+[HUAWEI_E220]
+Modem = /dev/ttyUSB0
+Baud = 3600000
+Init1 = ATZ
+Init2 = ATQ0 V1 E1 S0=0 &C1 &D2
+Init3 = AT+CGDCONT=1,"IP","3gnet"
+Phone = ATDT*99#
+Username = ppp
+Password = ppp
+Dial Command = 
+Resp Wait = 5000 
+
+[ZTE_AC8700]
+Modem = /dev/ttyUSB0
+Baud = 460800
+Init1 = AT
+Init2 = ATQ0 V1 E1 S0=0 &C1 &D2 +FCLASS=0
+Init3 = 
+Phone = ATDT#777
+Username = CARD
+Password = CARD
+Dial Command =ccccc 
+Resp Wait = 7000
+
+
+[LONGSUNG_U9507W]
+Modem = /dev/ttyUSB1
+Baud = 9600
+Init1 = AT
+Init2 = ATS0=0
+Init3 = ATE0V1
+Init4 = AT+CGDCONT=1,"IP","CMNET"
+Phone = ATDT*99***1#
+Username = ppp
+Password = ppp
+Dial Command = 
+Resp Wait = 5000 
+
+[LONGSUNG_U9507W2]
+Modem = /dev/ttyUSB2
+Baud = 9600
+Init1 = AT
+Init2 = ATS0=0
+Init3 = ATE0V1
+Init4 = AT+CGDCONT=1,"IP","CMNET"
+Phone = ATDT*99***1#
+Username = ppp
+Password = ppp
+Dial Command = 
+Resp Wait = 5000 
+
+[LONGSUNG_U9507W3]
+Modem = /dev/ttyUSB3
+Baud = 9600
+Init1 = AT
+Init2 = ATS0=0
+Init3 = ATE0V1
+Init4 = AT+CGDCONT=1,"IP","CMNET"
+Phone = ATDT*99***1#
+Username = ppp
+Password = ppp
+Dial Command = 
+Resp Wait = 5000 
+
+ /media/sdcard0/udial -d -p -c liantong &
+

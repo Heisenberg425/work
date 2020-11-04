@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+<BaseSetting BeLite="false" Profile="standard" ProjectType="SylixOSAppProject" RealEvoVer="3.1.5 Experience"/>
+<OutputSetting>
+<OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+<OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+<OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+</OutputSetting>
+<UploadPath>
+<PairItem key="$(WORKSPACE_udial)\$(Output)\strip\udial" value="/bin/udial"/>
+</UploadPath>
+<BuildSetting CoustomCfgMakefile="false" NeedReBuild="false" NotScanSourceFile="false"/>
+<DeviceSetting DevName="10.9.0.17" WorkDir="/apps/udial"/>
+</SylixOSSetting>

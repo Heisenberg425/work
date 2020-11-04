@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+<BaseSetting BeLite="false" Profile="standard" ProjectType="SylixOSAppProject" RealEvoVer="3.6.3 Ultimate"/>
+<OutputSetting>
+<OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+<OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+<OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+</OutputSetting>
+<BuildSetting CoustomCfgMakefile="true" NeedReBuild="false" NotScanSourceFile="true"/>
+<UploadPath>
+<PairItem key="$(WORKSPACE_quagga)\$(Output)\strip\zebra" value="/bin/zebra"/>
+<PairItem key="$(WORKSPACE_quagga)\$(Output)\strip\bgpd" value="/bin/bgpd"/>
+<PairItem key="$(WORKSPACE_quagga)\$(Output)\strip\isisd" value="/bin/isisd"/>
+<PairItem key="$(WORKSPACE_quagga)\$(Output)\strip\pimd" value="/bin/pimd"/>
+<PairItem key="$(WORKSPACE_quagga)\$(Output)\strip\ripd" value="/bin/ripd"/>
+<PairItem key="$(WORKSPACE_quagga)\$(Output)\strip\ospfd" value="/bin/ospfd"/>
+<PairItem key="$(WORKSPACE_quagga)\$(Output)\strip\ripngd" value="/bin/ripngd"/>
+<PairItem key="$(WORKSPACE_quagga)\$(Output)\strip\vtysh" value="/bin/vtysh"/>
+<PairItem key="$(WORKSPACE_quagga)\$(Output)\strip\libzebra.so" value="/lib/libzebra.so"/>
+<PairItem key="$(WORKSPACE_quagga)/configurations\bgpd.conf" value="/etc/quagga/bgpd.conf"/>
+<PairItem key="$(WORKSPACE_quagga)/configurations\isisd.conf" value="/etc/quagga/isisd.conf"/>
+<PairItem key="$(WORKSPACE_quagga)/configurations\ospf6d.conf" value="/etc/quagga/ospf6d.conf"/>
+<PairItem key="$(WORKSPACE_quagga)/configurations\ospfd.conf" value="/etc/quagga/ospfd.conf"/>
+<PairItem key="$(WORKSPACE_quagga)/configurations\pimd.conf" value="/etc/quagga/pimd.conf"/>
+<PairItem key="$(WORKSPACE_quagga)/configurations\ripd.conf" value="/etc/quagga/ripd.conf"/>
+<PairItem key="$(WORKSPACE_quagga)/configurations\ripngd.conf" value="/etc/quagga/ripngd.conf"/>
+<PairItem key="$(WORKSPACE_quagga)/configurations\vtysh.conf" value="/etc/quagga/vtysh.conf"/>
+<PairItem key="$(WORKSPACE_quagga)/configurations\zebra.conf" value="/etc/quagga/zebra.conf"/>
+</UploadPath>
+<DeviceSetting DevName="10.1.100.1" WorkDir="/apps/quagga"/>
+</SylixOSSetting>

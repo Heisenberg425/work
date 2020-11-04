@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+<BaseSetting BeLite="false" Profile="standard" ProjectType="SylixOSAppProject" RealEvoVer="3.2.5 Ultimate"/>
+<OutputSetting>
+<OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+<OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+<OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+</OutputSetting>
+<UploadPath>
+<PairItem key="$(WORKSPACE_dhcpserver)/sample\dhcpdconfig.ini" value="/etc/dhcpdconfig.ini"/>
+<PairItem key="$(WORKSPACE_dhcpserver)/sample\dhcpd.lease" value="/var/dhcplease/dhcpd.leases"/>
+<PairItem key="$(WORKSPACE_dhcpserver)\$(Output)\strip\dhcpserver" value="/apps/dhcpserver/dhcpserver"/>
+</UploadPath>
+<BuildSetting CoustomCfgMakefile="false" NeedReBuild="false" NotScanSourceFile="false"/>
+<DeviceSetting DevName="192.168.1.96" WorkDir="/apps/dhcpserver"/>
+</SylixOSSetting>

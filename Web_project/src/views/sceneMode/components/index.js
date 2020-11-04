@@ -1,0 +1,5 @@
+export { default as mainBox } from './content'
+export { default as internetBox } from './internet-box'
+export { default as terminalBox } from './terminal-box'
+export { default as leftCol } from './left-col'
+export { default as titleLine } from './title-line'

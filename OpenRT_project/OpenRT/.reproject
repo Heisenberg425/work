@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+<BaseSetting Profile="standard" ProjectType="SylixOSAppProject" RealEvoVer="3.8.3 Ultimate"/>
+<OutputSetting>
+<OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+<OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+<OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+</OutputSetting>
+<BuildSetting CoustomCfgMakefile="true" NeedReBuild="false" NotScanSourceFile="true"/>
+<DeviceSetting DevName="10.9.0.18" WorkDir="/apps/OpenRT"/>
+<UploadPath>
+<PairItem key="$(WORKSPACE_OpenRT)\src\CommunicateServer\libcomm\$(Output)/strip/libcomm.so" value="/lib/libcomm.so"/>
+<PairItem key="$(WORKSPACE_OpenRT)\src\CommunicateServer\libnethandle\$(Output)\strip\libnethandle.so" value="/lib/libnethandle.so"/>
+<PairItem key="$(WORKSPACE_OpenRT)\src\OpenRTServer/src/kidvpn/ipipfree.ipdb" value="/etc/OpenRT/ipipfree.ipdb"/>
+<PairItem key="$(WORKSPACE_OpenRT)\src\OpenRTServer/$(Output)/strip/OpenRTServer" value="/apps/OpenRTServer/OpenRTServer"/>
+<PairItem key="$(WORKSPACE_OpenRT)\src\WebServer\goahead\$(Output)\strip\libgoahead.so" value="/lib/libgoahead.so"/>
+<PairItem key="$(WORKSPACE_OpenRT)\src\WebServer\goahead\$(Output)\strip\goahead" value="/apps/goahead/goahead"/>
+<PairItem key="$(WORKSPACE_OpenRT)\src\WebServer\goahead\$(Output)\strip\webcomp" value="/apps/goahead/webcomp"/>
+<PairItem key="$(WORKSPACE_OpenRT)\src\WebServer\goahead\$(Output)\strip\gopass" value="/apps/goahead/gopass"/>
+<PairItem key="$(WORKSPACE_OpenRT)\src\WebServer\goahead/embedthis-goahead\src\route.txt" value="/apps/goahead/route.txt"/>
+<PairItem key="$(WORKSPACE_OpenRT)\src\WebServer\goahead/embedthis-goahead\src\auth.txt" value="/apps/goahead/auth.txt"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\$(Output)\zebra" value="/bin/zebra"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\$(Output)\bgpd" value="/bin/bgpd"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\$(Output)\ripngd" value="/bin/ripngd"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\$(Output)\ripd" value="/bin/ripd"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\$(Output)\isisd" value="/bin/isisd"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\$(Output)\vtysh" value="/bin/vtysh"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\$(Output)\ospfd" value="/bin/ospfd"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\$(Output)\pimd" value="/bin/pimd"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\$(Output)\libzebra.so" value="/lib/libzebra.so"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\configurations\ripd.conf" value="/etc/quagga/ripd.conf"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\configurations\isisd.conf" value="/etc/quagga/isisd.conf"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\configurations\bgpd.conf" value="/etc/quagga/bgpd.conf"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\configurations\ospfd.conf" value="/etc/quagga/ospfd.conf"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\configurations\vtysh.conf" value="/etc/quagga/vtysh.conf"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\configurations\pimd.conf" value="/etc/quagga/pimd.conf"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\configurations\ripngd.conf" value="/etc/quagga/ripngd.conf"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\configurations\ospf6d.conf" value="/etc/quagga/ospf6d.conf"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\quagga\configurations\zebra.conf" value="/etc/quagga/zebra.conf"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\dhcpserver\sample\dhcpd.lease" value="/var/dhcplease/dhcpd.leases"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\dhcpserver\sample\dhcpdconfig.ini" value="/etc/dhcpdconfig.ini"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\dhcpserver\$(Output)\dhcpserver" value="/apps/dhcpserver/dhcpserver"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\arpSpoofDefense/$(Output)/arpSpoofDefense.ko" value="/lib/modules/arpSpoofDefense.ko"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\tmstat\$(Output)/trafficStats.ko" value="/lib/modules/trafficStats.ko"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\libpcap\$(Output)\libpcap.so" value="/lib/libpcap.so"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\libreadline\$(Output)\libreadline.so" value="/lib/libreadline.so"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\libsqlite3\$(Output)\libsqlite3.so" value="/lib/libsqlite3.so"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\libsqlite3\$(Output)\sqlite3" value="/bin/sqlite3"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\rm_tool\$(Output)\rm_tool" value="/bin/rm_tool"/>
+<PairItem key="$(WORKSPACE_OpenRT)\Tools\others\udial\$(Output)\udial" value="/bin/udial"/>
+<PairItem key="$(WORKSPACE_OpenRT)\web" value="/apps/goahead/web"/>
+</UploadPath>
+</SylixOSSetting>

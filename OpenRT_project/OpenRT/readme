@@ -1,0 +1,21 @@
+工程目录结构：
+CommunicateServer: 通信服务提供层
+	licomm：后台接口与配置实现进程之间的通信源码
+	libnethandle：配置实现提供的具体配置接口库
+	
+include：后台接口与配置实现进程之间的公用头文件
+
+OpenRTServer:OpenRT配置实现源码
+     goahead：web服务器源码，包括后台action接口
+
+Tools：相关工具
+	quaggatelnet:用于与quagga建立telnet连接
+	tools：第三方工具和中间件镜像
+	
+web:存放web打包好的文件
+
+
+编译方法：
+根据tools目录中的文件夹名称，单独编译对应的第三方工具和中间件，然后将编译生成的镜像文件存放到tools->platform目录下对应平台文件夹中，
+然后整体编译OpenRT工程，并一键部署即可使用。
+注意：将工程选择好对应的base后，需要将工程属性设置为手动模式

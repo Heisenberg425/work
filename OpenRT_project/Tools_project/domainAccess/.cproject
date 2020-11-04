@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.core.default.config.1667973322">
+			<storageModule buildSystemId="org.eclipse.cdt.core.defaultConfigDataProvider" id="org.eclipse.cdt.core.default.config.1667973322" moduleId="org.eclipse.cdt.core.settings" name="Configuration">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry">
+		<pathentry base-ref="domainAccess" include="D:/ACOINFO-3.9.6/RealEvo/compiler/mips64-sylixos-toolchain/mips64-sylixos-elf/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="domainAccess" include="D:/ACOINFO-3.9.6/RealEvo/compiler/mips64-sylixos-toolchain/lib/gcc/mips64-sylixos-elf/4.9.3/include" kind="inc" path="" system="true"/>
+		<pathentry kind="mac" name="__mips64" path="" value=""/>
+		<pathentry base-ref="domainAccess" include="E:/workspace-OpenRT-New/ls3a3000/Base-ls-64-release-193/libcextern/libcextern/include" kind="inc" path="" system="true"/>
+		<pathentry kind="mac" name="__GNUC__" path="" value="4"/>
+		<pathentry base-ref="domainAccess" include="E:/workspace-OpenRT-New/ls3a3000/Base-ls-64-release-193/libsylixos/SylixOS/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="domainAccess" include="E:/workspace-OpenRT-New/ls3a3000/Base-ls-64-release-193/libsylixos/SylixOS/include/network" kind="inc" path="" system="true"/>
+		<pathentry kind="mac" name="SYLIXOS" path="" value=""/>
+		<pathentry base-ref="domainAccess" include="E:/workspace-OpenRT-New/ls3a3000/Base-ls-64-release-193/libsylixos/SylixOS" kind="inc" path="" system="true"/>
+	</storageModule>
+</cproject>

@@ -1,0 +1,82 @@
+    2019-01-24: Bai.QiangQiang
+    版本号：0.8.13
+    前端修复部分显示bug
+    增加 web 绑定指定网口功能
+
+    2019-01-18: Bai.QiangQiang
+    版本号：0.8.12
+    修复拨号功能在多线程访问数据库时未进行互斥操作的bug
+    前端修复部分显示bug
+    上传LS3A3000 OpenRT 镜像包
+
+    2019-01-03: Bai.QiangQiang
+    版本号：0.8.11
+    quagga 前端修改为使用 putty 进行连接，后端对应地删除了无效的代码
+    删除了 quagga telnet 相关代码
+    
+    2018-12-27: Bai.QiangQiang
+    版本号：0.8.10
+    域名访问功能从 OpenRT 中取出，将域名访问功能作为内核模块加载。
+    修复 IP 转换为地理地址数据库解析代码 bug
+    调整 OpenRT 部分目录结构及makefile
+    
+    2018-12-25: Bai.QiangQiang
+    版本号：0.8.9
+    goahead 服务器的 Cache-Control 修改为 no-cache
+
+    2018-12-24: Bai.QiangQiang
+    修复流量统计模块关于终端设备连接时间显示不准确的bug
+    
+    2018-12-22: Bai.QiangQiang
+    版本号为0.8.8
+    修复拨号相关bug
+  
+    2018-12-22: Bai.QiangQiang
+    版本号为0.8.7
+    修复 ARP 设置bug
+    修改 NPF 在无数据返回到前端时的数据格式
+  
+    2018-12-21: Bai.QiangQiang
+    版本号为0.8.7
+    上传 FT1500A OpenRT 镜像包
+
+    2018-12-21: Bai.QiangQiang
+    版本号为0.8.7
+    修复流量数据统计bug
+    修复固件升级问题
+    修复 DNS、DHCP设置备用DNS的bug    
+    
+    2018-12-20: Bai.QiangQiang
+    版本号为0.8.6
+    修改 ARP 恢复的顺序
+    上传 FT1500A OpenRT 镜像包 
+
+    2018-12-20: Bai.QiangQiang
+    版本号为0.8.5
+    设置 WAN 口后增加网口路由       
+
+    2018-12-19: Bai.QiangQiang
+    版本号为0.8.4 
+    修复简易模式创建的 KidVPN 的数据库信息在专家模式下不清除的 bug
+    修改简易模式下设置 LAN 的 DHCP 地址池信息的获取方式
+    修复 ARP 删除产生 invalid 状态的 bug
+    修改情景模式 KidVPN server 公网 IP 为用户手动设置
+    增加网口 IP 冲突检测（不允许各网口网络号出现一致的情况）    
+
+	2018-12-18: Bai.QiangQiang
+    版本号为0.8.4 替换 tar 工具
+	
+	2018-12-15: Bai.QiangQiang
+    增加 quagga telnet 缓冲区大小至 4KB，解决进程退出 BUG
+    
+    2018-12-14: Bai.QiangQiang
+    版本号为0.8.3，修复联网时间获取 BUG，增加域名解析代码  
+    
+    2018-12-12: Bai.QiangQiang
+	版本号为0.8.2，修复 kidvpn MTU 设置 BUG
+    
+    2018-12-11: Bai.QiangQiang
+	增加 ARM ARCH64 架构支持
+	
+	2018-12-10: Bai.QiangQiang
+	版本号为0.8.1，修复 nat 访问非法地址导致进程崩溃的 BUG

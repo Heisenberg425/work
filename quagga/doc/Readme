@@ -1,0 +1,9 @@
+SylixOS平台quagga运行前提：
+1. 部署运行时文件 （libzebra.so, zebra ...）
+2. 创建quagga用户组：gadd quagga 1000
+3. 创建quagga用户：  uadd quagga 123 1 1000 1000 "router user" /home/quagga 
+4. 创建运行依赖目录：mkdir /var/run
+
+SylixOS平台quagga运行方法：
+1. 启动zebra: zebra & 
+2. 启动其它路由协议 (例如：ripd &)

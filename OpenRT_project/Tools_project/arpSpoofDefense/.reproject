@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+<BaseSetting Profile="standard" ProjectType="SylixOSKoProject" RealEvoVer="3.8.3 Ultimate"/>
+<OutputSetting>
+<OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+<OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+<OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+</OutputSetting>
+<BuildSetting CoustomCfgMakefile="false" NeedReBuild="false" NotScanSourceFile="false"/>
+<DeviceSetting DevName="10.9.0.18" WorkDir="/lib/modules/arpSpoofDefense"/>
+<UploadPath>
+<PairItem key="$(WORKSPACE_arpSpoofDefense)/$(Output)/strip/arpSpoofDefense.ko" value="/lib/modules/arpSpoofDefense.ko"/>
+<PairItem key="$(WORKSPACE_arpSpoofDefense)/sample\arpSpoofDefense.ini" value="/etc/arpSpoofDefense.ini"/>
+</UploadPath>
+</SylixOSSetting>
